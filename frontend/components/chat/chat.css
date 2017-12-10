@@ -1,0 +1,19 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &--messages {
+    width: 100%;
+    flex: 1 0 0;
+  }
+
+  &--form {
+    width: 100%;
+    background: white;
+    flex: 0 0 50px;
+  }
+}

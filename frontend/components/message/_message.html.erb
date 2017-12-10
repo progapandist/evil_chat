@@ -1,0 +1,19 @@
+<div class="message">
+  <div class="message--header">
+    <span class="message--author">
+      <%= message.author %>
+    </span>
+    <span class="message--time">
+      <% if message.created_at > Time.now - 24.hours %>
+        <%= l(message.created_at, format: :short) %>
+      <% else %>
+        <%= l(message.created_at, format: :long) %>
+      <% end %>
+    </span>
+  </div>
+  <div class="message--text">
+    <% message.text.lines.each do |line| %>
+      <p><%= line %></p>
+    <% end %>
+  </div>
+</div>

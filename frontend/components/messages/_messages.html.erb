@@ -1,0 +1,7 @@
+<div class="messages js-messages">
+  <div class="messages--content js-messages--content">
+    <% messages.each do |message| %>
+      <%= c("message", message: message) %>
+    <% end %>
+  </div>
+</div>
