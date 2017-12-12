@@ -19,6 +19,6 @@ class ComponentGenerator < Rails::Generators::Base
   protected
 
   def component_path
-   "front/components/#{component_name}"
+    "front/components/#{component_name}"
   end
 end
