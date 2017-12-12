@@ -1,3 +1,4 @@
 plugins:
+  postcss-nested: {}
   postcss-smart-import: {}
   postcss-cssnext: {}
