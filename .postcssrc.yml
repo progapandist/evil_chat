@@ -2,3 +2,5 @@ plugins:
   postcss-nested: {}
   postcss-import: {}
   postcss-cssnext: {}
+  postcss-inline-svg: {}
+  postcss-svgo: {}
