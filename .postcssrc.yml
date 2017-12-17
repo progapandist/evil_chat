@@ -1,4 +1,6 @@
 plugins:
   postcss-nested: {}
-  postcss-smart-import: {}
+  postcss-import: {}
   postcss-cssnext: {}
+  postcss-inline-svg: {}
+  postcss-svgo: {}

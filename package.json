@@ -2,9 +2,11 @@
   "name": "evil_chat_codealong",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.0.1",
+    "@rails/webpacker": "^3.2.0",
     "normalize.css": "^7.0.0",
-    "postcss-nested": "^3.0.0"
+    "postcss-inline-svg": "^3.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-svgo": "^2.1.6"
   },
   "scripts": {
     "lint-staged": "$(yarn bin)/lint-staged"
