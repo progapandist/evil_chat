@@ -1,9 +1,18 @@
 .auth-form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
+
+  &--logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+    background-image: url("./static/icon.svg");
+    background-size: 100%;
+  }
 
   &--input {
     width: 100%;
