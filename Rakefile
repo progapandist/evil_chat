@@ -4,5 +4,3 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
-
-Rake::Task.define_task("assets:precompile" => ["webpacker:compile"])
