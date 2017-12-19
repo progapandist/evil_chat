@@ -24,9 +24,9 @@ gem 'redis', '~> 3.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :production do
-  gem 'sprockets-rails', require: 'sprockets/railtie'
-end
+# group :production do
+#   gem 'sprockets-rails', require: 'sprockets/railtie'
+# end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
