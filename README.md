@@ -18,6 +18,8 @@ If you are looking for code that reflects application at the end of [Part 2]((ht
 $ cp config/database.yml.example config/database.yml
 $ cp config/secrets.yml.example config/secrets.yml
 
+$ bundle install
+$ rails db:migrate
 $ yarn install
 $ brew install hivemind
 $ hivemind Procfile.dev
